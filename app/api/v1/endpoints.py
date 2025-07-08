@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.models.simulation import SimulationRequest, SimulationResponse
+from app.models.models import SimulationRequest, SimulationResponse
 from app.services.simulator import simulate_race
 
 router = APIRouter()
