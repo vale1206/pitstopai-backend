@@ -1,5 +1,5 @@
-from app.simulation.simulator import simulate_race
-from app.simulation.models import SimulationRequest, TireStint
+from app.services.simulator import simulate_race
+from app.models.models import SimulationRequest, TireStint
 
 def test_simple_simulation():
     data = SimulationRequest(
