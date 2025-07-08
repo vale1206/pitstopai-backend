@@ -13,4 +13,5 @@ def test_simple_simulation():
     )
     result = simulate_race(data)
     assert result.total_race_time > 0
-    assert "Pit stop" in result.details
+    assert "Stints" in result.details
+
